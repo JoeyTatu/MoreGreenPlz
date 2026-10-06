@@ -4,7 +4,7 @@
 * The AWS Ubuntu instance user is "root". You can find out how to access the AWS Ubuntu instance as the root user by clicking [here](https://tecadmin.net/how-to-enable-ssh-as-root-on-aws-ubuntu-instance/).
 
 Setup:
-1. Create the MoreGreen repo on GitHub.
+1. Create the MoreGreenPlz repo on GitHub.
 
 2. Still in GitHub, get an access token:<br>
   a. Click Pic on top right > Settings > Developer settings (bottom left) > Personal access token > Token (classic) > Generate new token > Generate new token (classic)<br>
@@ -12,16 +12,16 @@ Setup:
   b. Go here: [https://github.com/settings/tokens/new](https://github.com/settings/tokens/new)
   
 3. In the AWS Ubuntu instance, clone the repo:<br>
-  <code>git clone http://github.com/{your-username}/MoreGreen.git</code>
+  <code>git clone http://github.com/{your-username}/MoreGreenPlz.git</code>
   
 4. Move into the MoreGreen folder:<br> 
-  <code>cd MoreGreen</code>
+  <code>cd MoreGreenPlz</code>
   
 5. Remove the remote origin:<br>
   <code>git remote remove origin</code>
   
 6. Re-add the remote origin with youe username and access token:<br>
-  <code>git remote add origin https://{your-username):{your-access-token}@github.com/{your-username}/MoreGreen.git</code><br>
+  <code>git remote add origin https://{your-username):{your-access-token}@github.com/{your-username}/MoreGreenPlz.git</code><br>
   (This will prevent being asked for your username and password (i.e. access token) when pushing to the repo every time.)
   
 7. Set your username and email as per your GitHub account:<br>
@@ -40,7 +40,7 @@ Setup:
 
         FILE="dates.log"
           
-        cd MoreGreen
+        cd MoreGreenPlz
 
         # Check if the file exists
         if [ ! -e "$FILE" ]; then
