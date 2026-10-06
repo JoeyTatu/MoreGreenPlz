@@ -1,4 +1,4 @@
-#MoreGreen
+#MoreGreenPlz
 * Look like you're active on GitHub and make it more green by automating editing and pushing a file to a repo by running a bash script using Cron.   
 * This is a repo that adds the current date and time to the dates.log via a cron job on an AWS Ubuntu server.
 * The AWS Ubuntu instance user is "root". You can find out how to access the AWS Ubuntu instance as the root user by clicking [here](https://tecadmin.net/how-to-enable-ssh-as-root-on-aws-ubuntu-instance/).
@@ -14,7 +14,7 @@ Setup:
 3. In the AWS Ubuntu instance, clone the repo:<br>
   <code>git clone http://github.com/{your-username}/MoreGreenPlz.git</code>
   
-4. Move into the MoreGreen folder:<br> 
+4. Move into the MoreGreenPlz folder:<br> 
   <code>cd MoreGreenPlz</code>
   
 5. Remove the remote origin:<br>
@@ -28,7 +28,7 @@ Setup:
   <code>git config --global user.name "{your-name}"</code><br>
   <code>git config --global user.email "{your-email-address}"</code>
  
-8. Move out of the MoreGreen folder:<br>
+8. Move out of the MoreGreenPlz folder:<br>
   <code>cd .. </code>
   
 9. Nano was used to edit files, but other text editors can be used:<br>
